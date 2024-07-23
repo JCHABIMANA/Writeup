@@ -18,7 +18,7 @@ IPv4:C'est la deuxème version de protocole internet (1998),elle est de 16 octet
 C'est le temps pendant lequel une information doit etre conservée, ou le temps pendant lequel une information doit etre gardée en cache.
 TTL fait référence à la durée ou nombre de sauts pendant lesquels un paquet est censé exister dans un réseau avant d'etre rejeter par un routeur.
 
-## ANALYSE (source - destination)
+## ANALYSE DU CHALLENGE (source - destination)
 Pour réaliser une étude source-destionation, je vais exploite les propriéte du couche réseau.
 Sur la couche réseau il y a le protocole ICMP (Internet Control Message Protocol)
 Je dois chercher une commande qui lie les deux bouts (source et destination)
