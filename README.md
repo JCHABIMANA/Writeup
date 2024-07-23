@@ -3,8 +3,8 @@
 ## IP:Internet Protocol
 > Protocole informatique de connexion qui gère la transmission des données par internet.
 ## Adresse IP (IPv4 et IPv6)
-![Capture d'écran 2024-07-23 104824](https://github.com/user-attachments/assets/c3fcb39f-7b9f-423a-98e5-11fbb4e42596)
 > C'est un numéro d'identification d'un appareil connecté à un réseau informatique utilisant les protocole internet.
+![Capture d'écran 2024-07-23 104824](https://github.com/user-attachments/assets/c3fcb39f-7b9f-423a-98e5-11fbb4e42596)
 ## Réseau informatique
 > C'est un ensemble d'ordianateurs et dispositif connectés entre eux pour partager des ressources et des informations.
 ## Types de réseux
