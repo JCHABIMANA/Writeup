@@ -4,7 +4,7 @@ Protocole informatique de connexion qui gère la transmission des données par i
 ## Adresse IP 
 C'est un numéro d'identification d'un appareil connecté à un réseau informatique utilisant les protocole internet.
 ## Réseau informatique
-C'est un ensemble d'ordianateurs et dispositif connectés entre eux pour partager des ressources et des informations.
+C'est un ensemble d'ordianateur et dispositif connectés entre eux pour partager des ressources et des informations.
 ## Types de réseaux
 LAN: Local Area Network(réseau local) comme un réseau d'un batiment ou une maison
 WAN: Wide Area Network comme un réseau d'une ville, un pays ou du monde.
