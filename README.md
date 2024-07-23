@@ -31,6 +31,8 @@ Pour connaitre le TTL de mon challenge, je vais ouvrir le terminal de mon ordina
 Je lance mon wireshark, avec une filtre ICMP puis je regarde le temps de demande (request) et le temps de reponse (reply) .
 Ces deux paramètre vont m'aider à tirer la conclusion.
 ## Clonclusion
+![Capture d’écran 2024-07-23 132236](https://github.com/user-attachments/assets/01dc2d64-4531-4931-aaae-cffd2a3cec59)
+
 Le TTL=13
 
 
