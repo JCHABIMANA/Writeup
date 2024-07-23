@@ -38,6 +38,10 @@ Ces deux paramètre vont m'aider à tirer la conclusion.
 
 Le TTL=13
 
+## CAPTURE DE FLAG
+
+![FLAG](https://github.com/user-attachments/assets/b4e2c871-7ca7-4060-b6f0-c6e75d22c2d3)
+
 
 
 
