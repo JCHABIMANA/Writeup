@@ -7,6 +7,7 @@ C'est un numéro d'identification d'un appareil connecté à un réseau informat
 > C'est un ensemble d'ordianateurs et dispositif connectés entre eux pour partager des ressources et des informations.
 ## Types de réseaux
 ![1707166372492](https://github.com/user-attachments/assets/340f07fb-9ca6-4606-98b9-b5948938d779)
+
 LAN: Local Area Network(réseau local) comme un réseau d'un batiment ou une maison
 WAN: Wide Area Network comme un réseau d'une ville, un pays ou du monde.
 ## Types d'adresse IP
