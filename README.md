@@ -1,5 +1,6 @@
 # Challenge: IP - Time To Live
 ## IP:Internet Protocol
+![1707166372492](https://github.com/user-attachments/assets/340f07fb-9ca6-4606-98b9-b5948938d779)
 > Protocole informatique de connexion qui gère la transmission des données par internet.
 ## Adresse IP (IPv4 et IPv6)
 > C'est un numéro d'identification d'un appareil connecté à un réseau informatique utilisant les protocole internet.
@@ -13,7 +14,4 @@ WAN: Wide Area Network comme un réseau d'une ville, un pays ou du monde.
 
 
 
-## IP 
-
-![1707166372492](https://github.com/user-attachments/assets/d1a6f47f-83c0-4a41-9d5e-47a017a560c1)
 
