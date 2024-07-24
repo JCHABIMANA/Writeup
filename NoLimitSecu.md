@@ -35,3 +35,10 @@ Prix d'exploitation (éléctricité, logiciels et maintenance)
 
 
 ## En audit AD et audit AZURE AD, quelle la difference?
+Attack mini cat, control pass, vas y bash...
+Que ce qu'on audite? est ce que c'est de verfier les parametre de sec, virnerabikité de conf
+Il y a des outil type de verfication de la conf, reponse incident, 
+slide cafe Welldone
+Mettre en palce Azure AD assessiment
+Azure AD PS
+
