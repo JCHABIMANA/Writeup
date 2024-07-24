@@ -26,7 +26,7 @@ L'AZURE AD n'est pas un AD, il est en cours d'évolution
 ### AZURE AD
 > Pay as you go services, On paie les services utilisés
 > Single Sign-on
-> MFI
+> MFA
 > Public, hybride, prive
 
 ### AD
