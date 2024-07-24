@@ -30,8 +30,8 @@ L'AZURE AD n'est pas un AD, il est en cours d'évolution
  Public, hybride, prive
 
 ### AD
-> Prix d'achat du materiel
-> Prix d'exploitation (éléctricité, logiciels et maintenance)
+Prix d'achat du materiel
+Prix d'exploitation (éléctricité, logiciels et maintenance)
 
 
 ## En audit AD et audit AZURE AD, quelle la difference?
