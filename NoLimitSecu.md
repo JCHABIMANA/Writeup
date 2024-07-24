@@ -1,34 +1,21 @@
 # AZURE AD
-##Differnce entre AZURE AD et AD
+## Differnce entre AZURE AD et AD
 AD
-   On premise AD
-                Authentification
-				Kerberos
-				NTLM
-				RDAP
-				Arborescence-arbres-OU
+On premise AD:
+Authentification, Kerberos, NTLM, RDAP, Arborescence (arbres-OU)
 				
-	AZURE AD
-			On line access via web
-								  API
-								  Pas d'arbrorescence
-								  Les requetes http
-								  Des token
-								  Authentification
-								  SAML 2.0
-								  OAuth 2.0
-								  OpenID connect
-								  WS-Federation
-								  DFS
-								  Strategie de securité, il y les conditions d'accès pour gérer les mesures de sécurité
-								  (comment va s'authentifier les gens, d'ou ils viennent...
+AZURE AD
+On line access via web
+API, Pas d'arbrorescence, Les requetes http, Des token, Authentification, SAML 2.0,
+OAuth 2.0, OpenID connect, WS-Federation, DFS,  Strategie de securité, il y les conditions d'accès pour gérer les mesures de sécurité
+(comment va s'authentifier les gens, d'ou ils viennent...)
 								 
 								  
-AD et AZURE AD ont en commun 
-							Les utilisateurs
-							Les groupes
-							Authentification
-							Autorisation
+## AD et AZURE AD ont en commun 
+Les utilisateurs
+Les groupes
+Authentification
+Autorisation
 								  
 
 
