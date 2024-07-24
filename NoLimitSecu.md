@@ -24,10 +24,10 @@ L'AZURE AD n'est pas un AD, il est en cours d'évolution
 
 ## COMMENTAIRES
 ### AZURE AD
-> Pay as you go services, On paie les services utilisés
-> Single Sign-on
-> MFA
-> Public, hybride, prive
+ Pay as you go services, On paie les services utilisés
+ Single Sign-on
+ MFA
+ Public, hybride, prive
 
 ### AD
 > Prix d'achat du materiel
