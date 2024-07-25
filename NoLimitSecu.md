@@ -1,5 +1,4 @@
-# AZURE AD avec Vincent Le Toux, 
-l’auteur de Ping Castle (un outil permettant d’auditer son AD)
+# AZURE AD avec Vincent Le Toux, l’auteur de Ping Castle (un outil permettant d’auditer son AD)
 
 ## DIFFERENCE ENTRE AZURE AD et AD DS
 - AD DS: On premise AD
