@@ -33,12 +33,12 @@ C'est un analyseur de paquets qui est utilisé dans le dépannage et l’analyse
 Je télécharge le logiciel et je l'installe pour visualiser mon réseau.
 
 ## PROCEDURE
-Je telecharger wireshark 
-  
-ensuite je l'installe sur mon ordinateur IP_source (192.173.244.32)
+Je telecharger wireshark sur https://www.wireshark.org/download.html
+Je l'installe sur mon ordinateur IP_source (192.173.244.32)
 J'ouvre l'inviter de commandes sur mon ordinateur
 je lance la commande PING_IP destination (ping 24.6.126.218)
-Je lance wireshark en filtrant ICMP ensuite j'observe 
+Je lance wireshark en filtrant ICMP 
+
 Par defaut, les valeurs TTL sont 64, 128, 254
 Pour verfier ma reponse TTL=64-reply TTL
 
