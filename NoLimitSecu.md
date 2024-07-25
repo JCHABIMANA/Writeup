@@ -23,26 +23,21 @@ S'appelle AZURE AD mais c'est different
 Là aussi c'est confisant, tu peux héberger ton AD DS, s'appelle AD, pas AZURE AD
 
 ## Pourquoi choisir AZURE AD?
-AZURE a commencé par immigration d'ex-change dans le cloud
-L'AZURE AD n'est pas un AD, il est en cours d'évolution
-
-## COMMENTAIRES
-### AZURE AD
- Pay as you go services
- Single Sign-on
- MFA
- Public, hybride, prive
+> - Une gestion des identités et des accès robuste-
+> - Sécurité renforcée-MFA
+> - Expérience utilisateur améliorée-SSO (Single Sign-on)
+> - Modelinisation (Public, hybride, prive)
+> - Pay as you go services....
 
 ### AD
-Prix d'achat du materiel
-Prix d'exploitation (éléctricité, logiciels et maintenance)
+> - Prix d'achat du materiel
+> - Prix d'exploitation (éléctricité, logiciels et maintenance)
 
 
 ## En audit AD et audit AZURE AD, quelle la difference?
-local vs cloud
-
-Objectif : 
-L'audit dans les deux systèmes se concentre sur les activités de sécurité et de gestion des identités, mais utilise des outils et des méthodes différents en fonction de l'environnement 
+   Infrastructure local vs cloud
+- Objectif
+> - L'audit dans les deux systèmes se concentre sur les activités de sécurité et de gestion des identités, mais utilise des outils et des méthodes différents en fonction de l'environnement 
 
 ## LES OUTILS AD-DS et AZURE AD
 - AD-DS
