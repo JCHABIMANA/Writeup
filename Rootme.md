@@ -1,27 +1,27 @@
 # Challenge: IP - Time To Live
 ## IP:Internet Protocol
-Protocole informatique de connexion qui gère la transmission des données par internet.
+- Protocole informatique de connexion qui gère la transmission des données par internet.
 ## Adresse IP 
-C'est un numéro d'identification d'un appareil connecté à un réseau informatique utilisant les protocole internet.
+- C'est un numéro d'identification d'un appareil connecté à un réseau informatique utilisant les protocole internet.
 ## Réseau informatique
-C'est un ensemble d'ordianateur et dispositif connectés entre eux pour partager des ressources et des informations.
+- C'est un ensemble d'ordianateur et dispositif connectés entre eux pour partager des ressources et des informations.
 ## Types de réseaux
-LAN: Local Area Network(réseau local) comme un réseau d'un batiment ou une maison
-WAN: Wide Area Network comme un réseau d'une ville, un pays ou du monde.
+- LAN: Local Area Network(réseau local) comme un réseau d'un batiment ou une maison
+- WAN: Wide Area Network comme un réseau d'une ville, un pays ou du monde.
 ## Types d'adresse IP
- Adresse IP Public, adresse IP prive, adresse IP static, adresse IP dynamique.
+- Adresse IP Public, adresse IP prive, adresse IP static, adresse IP dynamique.
 ## IPv4 vs IPv6
-IPv4: C'est la première version de protocole internet (1981) , elle est de 4 octets, 32 bits
-IPv4:C'est la deuxème version de protocole internet (1998),elle est de 16 octets, 128 bits 
+- IPv4: C'est la première version de protocole internet (1981) , elle est de 4 octets, 32 bits
+- IPv4:C'est la deuxème version de protocole internet (1998),elle est de 16 octets, 128 bits 
 
 ## Time To Live (Temps de vie)
-C'est le temps pendant lequel une information doit etre conservée, ou le temps pendant lequel une information doit etre gardée en cache.
-TTL fait référence à la durée ou nombre de sauts pendant lesquels un paquet est censé exister dans un réseau avant d'etre rejeter par un routeur.
+- C'est le temps pendant lequel une information doit etre conservée, ou le temps pendant lequel une information doit etre gardée en cache.
+- TTL fait référence à la durée ou nombre de sauts pendant lesquels un paquet est censé exister dans un réseau avant d'etre rejeter par un routeur.
 
 ## ANALYSE DU CHALLENGE (source - destination)
-Pour réaliser une étude source-destination, je vais exploiter les propriétés du couche réseau.
-Sur la couche réseau il y a le protocole ICMP (Internet Control Message Protocol)
-Je dois chercher une commande qui lie les deux bouts (source et destination)
+- Pour réaliser une étude source-destination, je vais exploiter les propriétés du couche réseau.
+- Sur la couche réseau il y a le protocole ICMP (Internet Control Message Protocol)
+- Je dois chercher une commande qui lie les deux bouts (source et destination)
 
 ## ICMP
 C'est un protocole de couche réseau du modèle OSI, il est utilisé pour le rapport d'erreurs et les diagnostics dans les réseaux IP. 
