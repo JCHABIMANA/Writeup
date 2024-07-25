@@ -19,16 +19,29 @@ C'est le temps pendant lequel une information doit etre conservée, ou le temps 
 TTL fait référence à la durée ou nombre de sauts pendant lesquels un paquet est censé exister dans un réseau avant d'etre rejeter par un routeur.
 
 ## ANALYSE DU CHALLENGE (source - destination)
-Pour réaliser une étude source-destionation, je vais exploite les propriéte du couche réseau.
+Pour réaliser une étude source-destination, je vais exploiter les propriétés du couche réseau.
 Sur la couche réseau il y a le protocole ICMP (Internet Control Message Protocol)
 Je dois chercher une commande qui lie les deux bouts (source et destination)
+
 ## ICMP
-C'est un protocole de couche réseau du model OSI, il est utilisé pour le rapport d'erreurs et les diagnostics dans les réseaux IP. 
-PING envoie des message ICMP à l'appareil de destination pour verfier son accessibilité et mesurer le temps d'aller-retour.
-Pour visualiser se qui se passe dans le réseau, il y a un autre outil qui s'appelle wireshark que j'aurai besoin
+C'est un protocole de couche réseau du modèle OSI, il est utilisé pour le rapport d'erreurs et les diagnostics dans les réseaux IP. 
+PING envoie des message ICMP à l'appareil de destination pour vérifier son accessibilité et mesurer le temps d'aller-retour.
+Pour visualiser ce qui se passe dans le réseau, il y a un autre outil qui s'appelle Wireshark que j'aurai besoin
+
 ## WIRESHARK
 C'est un analyseur de paquets qui est utilisé dans le dépannage et l’analyse de réseaux informatiques...
-Je télécharge le logiciel et je l'installe pour visualiser mon réseau
+Je télécharge le logiciel et je l'installe pour visualiser mon réseau.
+
+## PROCEDURE
+Je telecharger wireshark 
+  
+ensuite je l'installe sur mon ordinateur IP_source (192.173.244.32)
+J'ouvre l'inviter de commandes sur mon ordinateur
+je lance la commande PING_IP destination (ping 24.6.126.218)
+Je lance wireshark en filtrant ICMP ensuite j'observe 
+Par defaut, les valeurs TTL sont 64, 128, 254
+Pour verfier ma reponse TTL=64-reply TTL
+
 ## SOLUTIONS
 Pour connaitre le TTL de mon challenge, je vais ouvrir le terminal de mon ordinateur je lance la commande ping IP_destination.
 Je lance mon wireshark, avec une filtre ICMP puis je regarde le temps de demande (request) et le temps de reponse (reply) .
