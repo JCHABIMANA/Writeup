@@ -3,10 +3,11 @@
 - Protocole informatique de connexion qui gère la transmission des données par internet.
   
 ## Adresse IP 
-- C'est un numéro d'identification d'un appareil connecté à un réseau informatique utilisant les protocole internet.
+- C'est un numéro d'identification d'un appareil connecté à un réseau informatique utilisant les protocoles internet.
   
 ## Réseau informatique
 - C'est un ensemble d'ordianateur et dispositif connectés entre eux pour partager des ressources et des informations.
+  
 ## Types de réseaux
 > - LAN: Local Area Network (réseau local) comme un réseau d'un batiment ou une maison
 > - WAN: Wide Area Network comme un réseau d'une ville, un pays ou du monde.
@@ -38,13 +39,14 @@ C'est un analyseur de paquets qui est utilisé dans le dépannage et l’analyse
 Je télécharge le logiciel et je l'installe pour visualiser mon réseau.
 
 ## PROCEDURE
-> - Je télécharger wireshark sur https://www.wireshark.org/download.html
-> -  Je l'installe sur mon ordinateur IP source (192.173.244.32)
-> -  J'ouvre l'inviter de commandes sur mon ordinateur
-> -  je lance la commande PING_IP destination (ping 24.6.126.218)
-> -  Je lance wireshark en filtrant ICMP
+> - Télécharger wireshark sur https://www.wireshark.org/download.html
+> - Installer sur l'ordinateur source dont l'adresse IP est 192.173.244.32
+> - Ouvrir l'inviter de commandes sur l'ordinateur source
+> - Lancer la commande PING_IP destination (ping 24.6.126.218)
+> - Lancer wireshark en filtrant ICMP
   ![Capture d’écran 2024-07-25 095708](https://github.com/user-attachments/assets/26bfb3a1-216a-4adf-9413-21a8ef128648)
 > - Par defaut, les valeurs TTL sont 64, 128, 254
+> - Pour mon cas c'est 64
 > - La formule pour vérfier ma reponse est TTL=64-reply TTL
 
 ## SOLUTIONS
@@ -61,7 +63,11 @@ Je télécharge le logiciel et je l'installe pour visualiser mon réseau.
 
 ![FLAG](https://github.com/user-attachments/assets/b4e2c871-7ca7-4060-b6f0-c6e75d22c2d3)
 
-
+## POUR ALLER PLUS LOIN
+> - https://www.it-connect.fr/?s=wireshark
+> - https://fr.wikipedia.org/wiki/Internet_Protocol
+> - https://en.wikipedia.org/wiki/IP_address
+> - https://www.cloudflare.com/fr-fr/learning/cdn/glossary/time-to-live-ttl/
 
 
 
