@@ -33,23 +33,23 @@ C'est un analyseur de paquets qui est utilisé dans le dépannage et l’analyse
 Je télécharge le logiciel et je l'installe pour visualiser mon réseau.
 
 ## PROCEDURE
-- Je telecharger wireshark sur https://www.wireshark.org/download.html
-- Je l'installe sur mon ordinateur IP_source (192.173.244.32)
+- Je télécharger wireshark sur https://www.wireshark.org/download.html
+- Je l'installe sur mon ordinateur IP source (192.173.244.32)
 - J'ouvre l'inviter de commandes sur mon ordinateur
 - je lance la commande PING_IP destination (ping 24.6.126.218)
 -  Je lance wireshark en filtrant ICMP
   ![Capture d’écran 2024-07-25 095708](https://github.com/user-attachments/assets/26bfb3a1-216a-4adf-9413-21a8ef128648)
-- Par defaut, les valeurs TTL sont 64, 128, 254
-- Pour verfier ma reponse TTL=64-reply TTL
+- Par defaut, les valeurs TTL sont 64, 128, 254 
+- La formule pour vérfier ma reponse est TTL=64-reply TTL
 
 ## SOLUTIONS
-Pour connaitre le TTL de mon challenge, je vais ouvrir le terminal de mon ordinateur je lance la commande ping IP_destination.
-Je lance mon wireshark, avec une filtre ICMP puis je regarde le temps de demande (request) et le temps de reponse (reply) .
-Ces deux paramètre vont m'aider à tirer la conclusion.
+- En regardant la partie bas de ma capture réseau, le request ttl=13 et reply ttl=51
+
 ## Clonclusion
 ![Capture d’écran 2024-07-23 132236](https://github.com/user-attachments/assets/01dc2d64-4531-4931-aaae-cffd2a3cec59)
 
 Le TTL=13
+Verfication par application de la formule TTL=64-51
 
 ## CAPTURE DE FLAG
 
