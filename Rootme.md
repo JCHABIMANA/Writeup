@@ -1,15 +1,19 @@
 # Challenge: IP - Time To Live
 ## IP:Internet Protocol
 - Protocole informatique de connexion qui gère la transmission des données par internet.
+  
 ## Adresse IP 
 - C'est un numéro d'identification d'un appareil connecté à un réseau informatique utilisant les protocole internet.
+  
 ## Réseau informatique
 - C'est un ensemble d'ordianateur et dispositif connectés entre eux pour partager des ressources et des informations.
 ## Types de réseaux
-- LAN: Local Area Network(réseau local) comme un réseau d'un batiment ou une maison
+- LAN: Local Area Network (réseau local) comme un réseau d'un batiment ou une maison
 - WAN: Wide Area Network comme un réseau d'une ville, un pays ou du monde.
+  
 ## Types d'adresse IP
 - Adresse IP Public, adresse IP prive, adresse IP static, adresse IP dynamique.
+  
 ## IPv4 vs IPv6
 - IPv4: C'est la première version de protocole internet (1981) , elle est de 4 octets, 32 bits
 - IPv4:C'est la deuxème version de protocole internet (1998),elle est de 16 octets, 128 bits 
