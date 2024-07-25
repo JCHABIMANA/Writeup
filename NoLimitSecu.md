@@ -1,14 +1,14 @@
 # AZURE AD avec Vincent Le Toux, l’auteur de Ping Castle (un outil permettant d’auditer son AD)
 ## DIFFERENCE ENTRE AZURE AD et AD DS
 - AD DS: On premise AD
-> - Authentification:
-> -  Kerberos:un protocole d'authentification réseau, Kerberos repose sur un modèle de tickets pour authentifier les utilisateurs et les services(Key Distribution Center (KDC)=Authentication Server (AS)+ Ticket-Granting Server (TGS)
-> -  > -  NTLM:protocole NT LAN Manager
-> -  RDAP: (Registration Data Access Protocol) est un protocole destiné à remplacer le WHOIS pour la gestion et l'accès aux données d'enregistrement de noms de domaine et d'adresses IP
+> - Authentification
+> - Kerberos
+> - NTLM:protocole NT LAN Manager
+> - RDAP:Registration Data Access Protocol
 > -  Arborescence (arbres-OU)
 				
 - AZURE AD: On line access via web
-> - API, Pas d'arbrorescence, Les requetes http, Des token, Authentification, SAML 2.0,
+> - API(Application Programming Interface), Pas d'arbrorescence, Les requetes http, Des token, Authentification, SAML 2.0,
 > - OAuth 2.0, OpenID connect, WS-Federation, DFS,  Strategie de securité, il y les conditions d'accès pour gérer les mesures de sécurité (comment va s'authentifier les gens, d'ou ils viennent...)
 						 								  
 ## AD et AZURE AD ont en commun 
@@ -53,3 +53,6 @@ Là aussi c'est confisant, tu peux héberger ton AD DS, s'appelle AD, pas AZURE 
 > - Azure PowerShel:Automatisation des tâches de gestion d'Azure AD, telles que la création et la gestion des utilisateurs, des groupes, des rôles et des applications.
 > - Azure CLI:Interface en ligne de commande pour gérer les services Azure
 > - Microsoft Sentinel-SIEM
+
+## POUR ALLER PLUS LOIN
+https://www.microsoft.com/fr-fr/security/business/identity-access/microsoft-entra-id
