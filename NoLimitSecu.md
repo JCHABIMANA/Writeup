@@ -55,4 +55,4 @@ Là aussi c'est confisant, tu peux héberger ton AD DS, s'appelle AD, pas AZURE 
 > - Microsoft Sentinel-SIEM
 
 ## POUR ALLER PLUS LOIN
-https://www.microsoft.com/fr-fr/security/business/identity-access/microsoft-entra-id
+https://www.microsoft.com
