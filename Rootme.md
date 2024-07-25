@@ -47,8 +47,8 @@ Je télécharge le logiciel et je l'installe pour visualiser mon réseau.
 - En regardant la partie bas de ma capture réseau, le request ttl=13 et reply ttl=51.
 
 ## Clonclusion
-Le TTL=13
-Verfication par application de la formule TTL=64-51
+- Le TTL=13
+- Vérfication: TTL=64-51
 
 ## CAPTURE DE FLAG
 
