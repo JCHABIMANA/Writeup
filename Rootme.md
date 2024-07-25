@@ -48,11 +48,11 @@ Je télécharge le logiciel et je l'installe pour visualiser mon réseau.
 
 ## SOLUTIONS
 ![Capture d’écran 2024-07-23 132236](https://github.com/user-attachments/assets/01dc2d64-4531-4931-aaae-cffd2a3cec59)
-- En regardant la capture réseau, le request ttl=13 et reply ttl=51.
+> - En regardant la capture réseau, le request ttl=13 et reply ttl=51.
 
 ## Clonclusion
-- Le TTL=13
-- Vérfication: TTL=64-51
+> - Le TTL=13
+> - Vérfication: TTL=64-51
 
 ## CAPTURE DE FLAG
 
