@@ -23,9 +23,10 @@
 - TTL fait référence à la durée ou nombre de sauts pendant lesquels un paquet est censé exister dans un réseau avant d'etre rejeter par un routeur.
 
 ## ANALYSE DU CHALLENGE (source - destination)
-- Pour réaliser une étude source-destination, je vais exploiter les propriétés du couche réseau.
-- Sur la couche réseau il y a le protocole ICMP (Internet Control Message Protocol)
-- Je dois chercher une commande qui lie les deux bouts (source et destination)
+> - Pour réaliser une étude source-destination, je vais exploiter les propriétés du couche réseau.
+> - Sur la couche réseau il y a le protocole ICMP (Internet Control Message Protocol)
+> - Je dois chercher une commande qui lie les deux bouts (source et destination)
+> - Je vais chercher un outil capable d'analyser le réseau derière la commande ci-haut citéé
 
 ## ICMP
 C'est un protocole de couche réseau du modèle OSI, il est utilisé pour le rapport d'erreurs et les diagnostics dans les réseaux IP. 
@@ -48,7 +49,9 @@ Je télécharge le logiciel et je l'installe pour visualiser mon réseau.
 
 ## SOLUTIONS
 ![Capture d’écran 2024-07-23 132236](https://github.com/user-attachments/assets/01dc2d64-4531-4931-aaae-cffd2a3cec59)
-> - En regardant la capture réseau, le request ttl=13 et reply ttl=51.
+> - En regardant la capture réseau
+> - request ttl=13
+> - reply ttl=51.
 
 ## Clonclusion
 > - Le TTL=13
