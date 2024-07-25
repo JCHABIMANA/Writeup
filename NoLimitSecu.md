@@ -1,10 +1,10 @@
-# AZURE AD
+# AZURE AD avec Vincent Le Toux, l’auteur de Ping Castle (un outil permettant d’auditer son AD)
 ## DIFFERENCE ENTRE AZURE AD et AD DS
 - AD DS: On premise AD
-> - Authentification
-> -  Kerberos
-> -  NTLM
-> -  RDAP
+> - Authentification:
+> -  Kerberos:un protocole d'authentification réseau, Kerberos repose sur un modèle de tickets pour authentifier les utilisateurs et les services(Key Distribution Center (KDC)=Authentication Server (AS)+ Ticket-Granting Server (TGS)
+> -  > -  NTLM:protocole NT LAN Manager
+> -  RDAP: (Registration Data Access Protocol) est un protocole destiné à remplacer le WHOIS pour la gestion et l'accès aux données d'enregistrement de noms de domaine et d'adresses IP
 > -  Arborescence (arbres-OU)
 				
 - AZURE AD: On line access via web
