@@ -26,7 +26,7 @@
 ## ICMP
 C'est un protocole de couche réseau du modèle OSI, il est utilisé pour le rapport d'erreurs et les diagnostics dans les réseaux IP. 
 PING envoie des message ICMP à l'appareil de destination pour vérifier son accessibilité et mesurer le temps d'aller-retour.
-Pour visualiser ce qui se passe dans le réseau, il y a un autre outil qui s'appelle Wireshark que j'aurai besoin
+Pour visualiser ce qui se passe dans le réseau, il y a un autre outil qui s'appelle Wireshark que j'aurai besoin.
 
 ## WIRESHARK
 C'est un analyseur de paquets qui est utilisé dans le dépannage et l’analyse de réseaux informatiques...
