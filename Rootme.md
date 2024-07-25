@@ -38,7 +38,7 @@ Je l'installe sur mon ordinateur IP_source (192.173.244.32)
 J'ouvre l'inviter de commandes sur mon ordinateur
 je lance la commande PING_IP destination (ping 24.6.126.218)
 Je lance wireshark en filtrant ICMP 
-
+![Capture d’écran 2024-07-25 095708](https://github.com/user-attachments/assets/26bfb3a1-216a-4adf-9413-21a8ef128648)
 Par defaut, les valeurs TTL sont 64, 128, 254
 Pour verfier ma reponse TTL=64-reply TTL
 
