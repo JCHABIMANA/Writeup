@@ -35,10 +35,22 @@ Prix d'exploitation (éléctricité, logiciels et maintenance)
 
 
 ## En audit AD et audit AZURE AD, quelle la difference?
-Attack mini cat, control pass, vas y bash...
-Que ce qu'on audite? est ce que c'est de verfier les parametre de sec, virnerabikité de conf
-Il y a des outil type de verfication de la conf, reponse incident, 
-slide cafe Welldone
-Mettre en palce Azure AD assessiment
-Azure AD PS
+local vs cloud
 
+Objectif : 
+L'audit dans les deux systèmes se concentre sur les activités de sécurité et de gestion des identités, mais utilise des outils et des méthodes différents en fonction de l'environnement 
+
+## LES OUTILS AD-DS et AZURE AD
+- AD-DS
+> - Active Directory Users and Computers (ADUC) :Ajout, suppression, modification et gestion des propriétés des objets dans le domaine.
+> - Group Policy Management Console (GPMC):Gestion avancée des utilisateurs, des groupes, des unités d'organisation et des stratégies de mot de passe.
+> - Active Directory Sites and Services:Gestion des sites, des sous-réseaux et de la topologie de réplication.
+> - PowerShell:Gestion automatisée des objets AD, des GPOs, et des audits de sécurité à l'aide de modules comme ActiveDirectory et GroupPolicy.
+
+- AZURE AD
+> - Azure Portal:Interface web pour gérer les services Azure, y compris Azure AD.
+> - Azure AD Admin Center: Portail spécifique pour la gestion d'Azure AD.
+> - Azure AD Connect:Outil pour synchroniser les identités entre AD DS on-premises et Azure AD
+> - Azure PowerShel:Automatisation des tâches de gestion d'Azure AD, telles que la création et la gestion des utilisateurs, des groupes, des rôles et des applications.
+> - Azure CLI:Interface en ligne de commande pour gérer les services Azure
+> - Microsoft Sentinel-SIEM
