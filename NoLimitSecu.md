@@ -1,5 +1,5 @@
 # AZURE AD
-## Differnce entre AZURE AD et AD
+## DIFFERENCE ENTRE AZURE AD et AD DS
 - AD DS: On premise AD
 > - Authentification
 > -  Kerberos
@@ -12,12 +12,13 @@
 > - OAuth 2.0, OpenID connect, WS-Federation, DFS,  Strategie de securité, il y les conditions d'accès pour gérer les mesures de sécurité (comment va s'authentifier les gens, d'ou ils viennent...)
 						 								  
 ## AD et AZURE AD ont en commun 
-> Les utilisateurs
-> Les groupes
-> Authentification
-> Autorisation
+> - Les utilisateurs
+> -  Les groupes
+> -  Authentification
+> -  Autorisation
 								  
-Si on ajoute les postes Windows, ça n'a pas les meme fonctionalité que AD
+## ATTENTION
+Si on ajoute les postes Windows, ça n'ont pas les meme fonctionalité que AD
 S'appelle AZURE AD mais c'est different
 Là aussi c'est confisant, tu peux héberger ton AD DS, s'appelle AD, pas AZURE AD
 
